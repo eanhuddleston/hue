@@ -1,9 +1,9 @@
-from light import Light, HUE_BRIDGE_IP, HUE_BRIDGE_USERNAME
 from datetime import datetime, date, time
+from light import Light, HUE_BRIDGE_IP, HUE_BRIDGE_USERNAME
 import time as time2
 
-START_TIME = time(11, 00)
-END_TIME = time(12, 00)
+START_TIME = time(20, 00)
+END_TIME = time(22, 00)
 STARTING_BRIGHTNESS = 254
 ENDING_BRIGHTNESS = 100
 
